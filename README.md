@@ -3,7 +3,7 @@
 **Copy passwords from a file into clipboard.**
 
 ## SETTING UP:
-**https://github.com/strikernd01/catpat.git**
+**git clone https://github.com/strikernd01/catpat.git**
 
 **sudo apt install xclip** 
 - **Make sure to not have any aliases set for xclip**
