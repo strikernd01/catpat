@@ -16,11 +16,11 @@ do
 done
 
 if [[ -v file ]]; then
-	if [[ -f ~/$file ]]; then
+	if [[ -f ./$file ]]; then
 		if [[ $n -ne 0 ]]; then
-			cat ~/$file | grep -v "#" | grep . |  sed -n "$((n*2))p" > >(xclip -selection clipboard -i)
+			cat ./$file | grep -v "#" | grep . |  sed -n "$((n*2))p" > >(xclip -selection clipboard -i)
 		else
-			cat ~/$file | grep -v "#" | grep . | tail -n 1 > >(xclip -selection clipboard -i)
+			cat ./$file | grep -v "#" | grep . | tail -n 1 > >(xclip -selection clipboard -i)
 		fi
 	else
 		echo "incorrect filename provided"
