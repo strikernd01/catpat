@@ -1,16 +1,16 @@
 # catpat
 ## DESCRIPTION:
-Copy passwords from a file into clipboard.
+**Copy passwords from a file into clipboard.**
 
 ## SETTING UP:
 **https://github.com/strikernd01/catpat.git**
 
 **sudo apt install xclip** 
-- Make sure to not have any aliases set for xclip
+- **Make sure to not have any aliases set for xclip**
 
-**chmod +x ./catpat/catpat.sh
+**chmod +x ./catpat/catpat.sh**
 
-**sudo cp ./catpat/catpat.sh /usr/bin/catpat
+**sudo cp ./catpat/catpat.sh /usr/bin/catpat**
 
 ## USAGE:
 **catpat \[options\] \[arguments\]**
